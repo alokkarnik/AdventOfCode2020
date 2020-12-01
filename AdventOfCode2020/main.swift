@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let problem1 = Problem_01()
+print(problem1.part2())
