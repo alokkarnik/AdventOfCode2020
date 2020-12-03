@@ -10,14 +10,14 @@ import Foundation
 
 typealias PasswordInput = (min: Int, max: Int, letter: Character, password: String)
 
-struct Problem_02 {
+struct Problem_02: Puzzle {
     var input: [PasswordInput] = []
 
     init() {
         input = parse(input: InputFileReader.readInput(id: "02"))
     }
 
-    func part1() -> Int {
+    func part1() -> String {
         var validPasswords = 0
 
         for passwordInput in input {
@@ -27,10 +27,10 @@ struct Problem_02 {
             }
         }
 
-        return validPasswords
+        return String(validPasswords)
     }
 
-    func part2() -> Int {
+    func part2() -> String {
         var validPasswords = 0
 
         for passwordInput in input {
@@ -44,7 +44,7 @@ struct Problem_02 {
             }
         }
 
-        return validPasswords
+        return String(validPasswords)
     }
 }
 

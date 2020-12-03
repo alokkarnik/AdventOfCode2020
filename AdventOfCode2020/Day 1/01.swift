@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct Problem_01 {
+struct Problem_01: Puzzle {
     let input: [Int]
 
     init() {
         input = InputFileReader.readInput(id: "01").compactMap { Int($0) }
     }
 
-    func part1() -> Int {
+    func part1() -> String {
         let sortedInput = input.sorted()
         var start = sortedInput.startIndex
         var end = sortedInput.endIndex - 1
@@ -23,17 +23,17 @@ struct Problem_01 {
         while start < end {
             let sum = sortedInput[start] + sortedInput[end]
             if sum == 2020 {
-                return sortedInput[start] * sortedInput[end]
+                return String(sortedInput[start] * sortedInput[end])
             } else if sum > 2020 {
                 end = sortedInput.index(before: end)
             } else {
                 start = sortedInput.index(after: start)
             }
         }
-        return -1
+        return "Could not find a solution"
     }
 
-    func part2() -> Int {
+    func part2() -> String {
         let sortedInput = input.sorted()
 
         for i in sortedInput.startIndex ..< sortedInput.endIndex {
@@ -43,7 +43,7 @@ struct Problem_01 {
             while start < end {
                 let sum = sortedInput[start] + sortedInput[end] + sortedInput[i]
                 if sum == 2020 {
-                    return sortedInput[start] * sortedInput[end] * sortedInput[i]
+                    return String(sortedInput[start] * sortedInput[end] * sortedInput[i])
                 } else if sum > 2020 {
                     end = sortedInput.index(before: end)
                 } else {
@@ -52,6 +52,6 @@ struct Problem_01 {
             }
         }
 
-        return -1
+        return "Could not find a solution"
     }
 }

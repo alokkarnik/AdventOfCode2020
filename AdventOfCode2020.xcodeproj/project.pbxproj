@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C988FE72578BBB400A12819 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C988FE62578BBB400A12819 /* Puzzle.swift */; };
+		5C988FEC2578BC3600A12819 /* 03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C988FEB2578BC3600A12819 /* 03.swift */; };
+		5C988FF42578BC7200A12819 /* 03 in Resources */ = {isa = PBXBuildFile; fileRef = 5C988FF32578BC7200A12819 /* 03 */; };
 		5CBB01D425765F620041D8C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB01D325765F620041D8C0 /* main.swift */; };
 		5CBB01DB25765F710041D8C0 /* 01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB01DA25765F710041D8C0 /* 01.swift */; };
 		5CBB01EA257661350041D8C0 /* ReadInputFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB01E9257661350041D8C0 /* ReadInputFile.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C988FE62578BBB400A12819 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		5C988FEB2578BC3600A12819 /* 03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03.swift; sourceTree = "<group>"; };
+		5C988FF32578BC7200A12819 /* 03 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 03; sourceTree = "<group>"; };
 		5CBB01D025765F620041D8C0 /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBB01D325765F620041D8C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5CBB01DA25765F710041D8C0 /* 01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01.swift; sourceTree = "<group>"; };
@@ -67,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C988FEA2578BC2800A12819 /* Day 3 */ = {
+			isa = PBXGroup;
+			children = (
+				5C988FEB2578BC3600A12819 /* 03.swift */,
+				5C988FF32578BC7200A12819 /* 03 */,
+			);
+			path = "Day 3";
+			sourceTree = "<group>";
+		};
 		5CBB01C725765F620041D8C0 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +106,7 @@
 				5CBB01EF257662030041D8C0 /* Helper */,
 				5CBB01DC25765F920041D8C0 /* Day 1 */,
 				5CBB01F22577644A0041D8C0 /* Day 2 */,
+				5C988FEA2578BC2800A12819 /* Day 3 */,
 				5CBB01D325765F620041D8C0 /* main.swift */,
 			);
 			path = AdventOfCode2020;
@@ -117,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				5CBB01E9257661350041D8C0 /* ReadInputFile.swift */,
+				5C988FE62578BBB400A12819 /* Puzzle.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -210,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CBB01F62577646A0041D8C0 /* 02 in Resources */,
+				5C988FF42578BC7200A12819 /* 03 in Resources */,
 				5CBB01EE257661920041D8C0 /* 01 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C988FE72578BBB400A12819 /* Puzzle.swift in Sources */,
+				5C988FEC2578BC3600A12819 /* 03.swift in Sources */,
 				5CBB01D425765F620041D8C0 /* main.swift in Sources */,
 				5CBB01F42577645D0041D8C0 /* 02.swift in Sources */,
 				5CBB01EA257661350041D8C0 /* ReadInputFile.swift in Sources */,
