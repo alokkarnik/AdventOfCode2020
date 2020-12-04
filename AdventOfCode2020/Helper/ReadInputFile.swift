@@ -18,4 +18,13 @@ class InputFileReader {
         let input: [String] = contents.split(separator: separator).map(String.init)
         return input
     }
+
+    static func readRawInput(id: String) -> String {
+        let currentDirectoryURL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+        let bundleUrl = URL(fileURLWithPath: "InputFiles.bundle", relativeTo: currentDirectoryURL)
+        let bundle = Bundle(url: bundleUrl)
+        let inputFileUrl = bundle!.url(forResource: "\(id)", withExtension: nil)!
+        let contents = try! String(contentsOf: inputFileUrl, encoding: .utf8)
+        return contents
+    }
 }
