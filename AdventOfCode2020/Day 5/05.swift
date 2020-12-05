@@ -25,9 +25,9 @@ struct Problem_05: Puzzle {
     func part2() -> String {
         let sortedSeatIDs = getAllSeatIDs(input).sorted()
 
-        for i in sortedSeatIDs.first! ..< sortedSeatIDs.last! {
-            if !sortedSeatIDs.contains(i) {
-                return "\(i)"
+        for (index, seatID) in sortedSeatIDs.enumerated() {
+            if !(sortedSeatIDs[index + 1] == (seatID + 1)) {
+                return "\(seatID + 1)"
             }
         }
 
