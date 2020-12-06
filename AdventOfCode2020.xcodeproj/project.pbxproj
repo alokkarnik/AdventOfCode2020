@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2EC313257CAB8B003E457B /* 06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2EC312257CAB8B003E457B /* 06.swift */; };
+		5C2EC319257CAB98003E457B /* 06 in Resources */ = {isa = PBXBuildFile; fileRef = 5C2EC318257CAB98003E457B /* 06 */; };
 		5C988FE72578BBB400A12819 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C988FE62578BBB400A12819 /* Puzzle.swift */; };
 		5C988FEC2578BC3600A12819 /* 03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C988FEB2578BC3600A12819 /* 03.swift */; };
 		5C988FF42578BC7200A12819 /* 03 in Resources */ = {isa = PBXBuildFile; fileRef = 5C988FF32578BC7200A12819 /* 03 */; };
@@ -45,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C2EC312257CAB8B003E457B /* 06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 06.swift; sourceTree = "<group>"; };
+		5C2EC318257CAB98003E457B /* 06 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 06; sourceTree = "<group>"; };
 		5C988FE62578BBB400A12819 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		5C988FEB2578BC3600A12819 /* 03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03.swift; sourceTree = "<group>"; };
 		5C988FF32578BC7200A12819 /* 03 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 03; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C2EC311257CAB79003E457B /* Day 6 */ = {
+			isa = PBXGroup;
+			children = (
+				5C2EC312257CAB8B003E457B /* 06.swift */,
+				5C2EC318257CAB98003E457B /* 06 */,
+			);
+			path = "Day 6";
+			sourceTree = "<group>";
+		};
 		5C988FEA2578BC2800A12819 /* Day 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +129,7 @@
 				5C988FEA2578BC2800A12819 /* Day 3 */,
 				5CE36199257A02C000C986B5 /* Day 4 */,
 				5CE361B1257B5E9600C986B5 /* Day 5 */,
+				5C2EC311257CAB79003E457B /* Day 6 */,
 				5CBB01EF257662030041D8C0 /* Helper */,
 				5CBB01D325765F620041D8C0 /* main.swift */,
 			);
@@ -258,6 +272,7 @@
 				5C988FF42578BC7200A12819 /* 03 in Resources */,
 				5CE361A1257A02E200C986B5 /* 04 in Resources */,
 				5CBB01EE257661920041D8C0 /* 01 in Resources */,
+				5C2EC319257CAB98003E457B /* 06 in Resources */,
 				5CE361B9257B5EC100C986B5 /* 05 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +286,7 @@
 			files = (
 				5CE361B3257B5EB500C986B5 /* 05.swift in Sources */,
 				5C988FE72578BBB400A12819 /* Puzzle.swift in Sources */,
+				5C2EC313257CAB8B003E457B /* 06.swift in Sources */,
 				5C988FEC2578BC3600A12819 /* 03.swift in Sources */,
 				5CE3619B257A02D100C986B5 /* 04.swift in Sources */,
 				5CBB01D425765F620041D8C0 /* main.swift in Sources */,
