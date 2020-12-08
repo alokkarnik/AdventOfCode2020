@@ -8,5 +8,5 @@
 
 import Foundation
 
-let problem: Puzzle = Problem_07()
+let problem: Puzzle = Problem_08()
 print(problem.part2())
