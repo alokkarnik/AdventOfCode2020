@@ -9,7 +9,6 @@
 import Foundation
 
 struct Problem_09: Puzzle {
-
     var input = InputFileReader.readInput(id: "09").map { Int($0)! }
 
     func part1() -> String {

@@ -87,7 +87,7 @@ extension Graph: Graphable {
         return nil
     }
 
-    func dfs(from source: Vertex<T>) -> [Vertex<T>] {
+    func dfs(from source: Vertex<T>, to destination: Vertex<T>) -> [Vertex<T>] {
         var stack = Stack<Vertex<T>>()
         var nodesVisited = [Vertex<T>]()
 
@@ -95,7 +95,13 @@ extension Graph: Graphable {
 
         while !stack.isEmpty {
             let topElement = stack.pop()!
+
             nodesVisited.append(topElement)
+
+            if topElement == destination {
+                nodesVisited.append(destination)
+                return nodesVisited
+            }
 
             if let allEdges = edges(from: topElement) {
                 for edge in allEdges {
@@ -107,6 +113,32 @@ extension Graph: Graphable {
         }
 
         return nodesVisited
+    }
+
+    func dfsCount(from source: Vertex<T>, to destination: Vertex<T>) -> Int {
+        var stack = Stack<Vertex<T>>()
+        var nodesVisited = [Vertex<T>]()
+        var paths = 1
+        stack.push(source)
+
+        while !stack.isEmpty {
+            let topElement = stack.pop()!
+            nodesVisited.append(topElement)
+
+            if topElement == destination {
+                return paths
+            }
+
+            if let allEdges = edges(from: topElement) {
+                for edge in allEdges {
+                    paths *= allEdges.count
+                    if !nodesVisited.contains(edge.destination) {
+                        stack.push(edge.destination)
+                    }
+                }
+            }
+        }
+        return paths
     }
 
     func weight(of source: Vertex<T>) -> Double {
