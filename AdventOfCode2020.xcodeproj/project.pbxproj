@@ -135,49 +135,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C102A212588CC0800183565 /* Day 15 */ = {
+		5C102A212588CC0800183565 /* 15 */ = {
 			isa = PBXGroup;
 			children = (
 				5C102A222588CC1800183565 /* 15.swift */,
 				5C102A282588CC2700183565 /* 15 */,
 			);
-			path = "Day 15";
+			path = 15;
 			sourceTree = "<group>";
 		};
-		5C2EC311257CAB79003E457B /* Day 6 */ = {
+		5C2EC311257CAB79003E457B /* 06 */ = {
 			isa = PBXGroup;
 			children = (
 				5C2EC312257CAB8B003E457B /* 06.swift */,
 				5C2EC318257CAB98003E457B /* 06 */,
 			);
-			path = "Day 6";
+			path = 06;
 			sourceTree = "<group>";
 		};
-		5C6D58FA2581E66A00889897 /* Day 10 */ = {
+		5C6D58FA2581E66A00889897 /* 10 */ = {
 			isa = PBXGroup;
 			children = (
 				5C6D58FB2581E67900889897 /* 10.swift */,
 				5C6D58FF2581E68700889897 /* 10 */,
 			);
-			path = "Day 10";
+			path = 10;
 			sourceTree = "<group>";
 		};
-		5C7C328525837F130010FB04 /* Day 11 */ = {
+		5C7C328525837F130010FB04 /* 11 */ = {
 			isa = PBXGroup;
 			children = (
 				5C7C328625837F220010FB04 /* 11.swift */,
 				5C7C328C25837F2E0010FB04 /* 11 */,
 			);
-			path = "Day 11";
+			path = 11;
 			sourceTree = "<group>";
 		};
-		5C7C3290258498700010FB04 /* Day 12 */ = {
+		5C7C3290258498700010FB04 /* 12 */ = {
 			isa = PBXGroup;
 			children = (
 				5C7C32912584988F0010FB04 /* 12.swift */,
 				5C7C32972584989E0010FB04 /* 12 */,
 			);
-			path = "Day 12";
+			path = 12;
 			sourceTree = "<group>";
 		};
 		5C87D8D4257E58A900CE0376 /* DataStructures */ = {
@@ -201,13 +201,13 @@
 			path = Graph;
 			sourceTree = "<group>";
 		};
-		5C87D8E6257E5DA200CE0376 /* Day 7 */ = {
+		5C87D8E6257E5DA200CE0376 /* 07 */ = {
 			isa = PBXGroup;
 			children = (
 				5C87D8E7257E5DAF00CE0376 /* 07.swift */,
 				5C87D8ED257E5DBC00CE0376 /* 07 */,
 			);
-			path = "Day 7";
+			path = 07;
 			sourceTree = "<group>";
 		};
 		5C87D8F3257E8A0800CE0376 /* Queue */ = {
@@ -226,31 +226,31 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
-		5C87D8FF257F465C00CE0376 /* Day 8 */ = {
+		5C87D8FF257F465C00CE0376 /* 08 */ = {
 			isa = PBXGroup;
 			children = (
 				5C87D900257F466D00CE0376 /* 08.swift */,
 				5C87D906257F467A00CE0376 /* 08 */,
 			);
-			path = "Day 8";
+			path = 08;
 			sourceTree = "<group>";
 		};
-		5C9812A025809F2400CEC5C8 /* Day 9 */ = {
+		5C9812A025809F2400CEC5C8 /* 09 */ = {
 			isa = PBXGroup;
 			children = (
 				5C9812A125809F3400CEC5C8 /* 09.swift */,
 				5C9812A725809F4200CEC5C8 /* 09 */,
 			);
-			path = "Day 9";
+			path = 09;
 			sourceTree = "<group>";
 		};
-		5C988FEA2578BC2800A12819 /* Day 3 */ = {
+		5C988FEA2578BC2800A12819 /* 03 */ = {
 			isa = PBXGroup;
 			children = (
 				5C988FEB2578BC3600A12819 /* 03.swift */,
 				5C988FF32578BC7200A12819 /* 03 */,
 			);
-			path = "Day 3";
+			path = 03;
 			sourceTree = "<group>";
 		};
 		5CBB01C725765F620041D8C0 = {
@@ -274,21 +274,21 @@
 		5CBB01D225765F620041D8C0 /* AdventOfCode2020 */ = {
 			isa = PBXGroup;
 			children = (
-				5C102A212588CC0800183565 /* Day 15 */,
-				5CBB01DC25765F920041D8C0 /* Day 1 */,
-				5CBB01F22577644A0041D8C0 /* Day 2 */,
-				5C988FEA2578BC2800A12819 /* Day 3 */,
-				5CE36199257A02C000C986B5 /* Day 4 */,
-				5CE361B1257B5E9600C986B5 /* Day 5 */,
-				5C2EC311257CAB79003E457B /* Day 6 */,
-				5C87D8E6257E5DA200CE0376 /* Day 7 */,
-				5C87D8FF257F465C00CE0376 /* Day 8 */,
-				5C9812A025809F2400CEC5C8 /* Day 9 */,
-				5C6D58FA2581E66A00889897 /* Day 10 */,
-				5C7C328525837F130010FB04 /* Day 11 */,
-				5C7C3290258498700010FB04 /* Day 12 */,
-				5CF3414C258648FD00D985BF /* Day 13 */,
-				5CF341642587A52400D985BF /* Day 14 */,
+				5CBB01DC25765F920041D8C0 /* 01 */,
+				5CBB01F22577644A0041D8C0 /* 02 */,
+				5C988FEA2578BC2800A12819 /* 03 */,
+				5CE36199257A02C000C986B5 /* 04 */,
+				5CE361B1257B5E9600C986B5 /* 05 */,
+				5C2EC311257CAB79003E457B /* 06 */,
+				5C87D8E6257E5DA200CE0376 /* 07 */,
+				5C87D8FF257F465C00CE0376 /* 08 */,
+				5C9812A025809F2400CEC5C8 /* 09 */,
+				5C6D58FA2581E66A00889897 /* 10 */,
+				5C7C328525837F130010FB04 /* 11 */,
+				5C7C3290258498700010FB04 /* 12 */,
+				5CF3414C258648FD00D985BF /* 13 */,
+				5CF341642587A52400D985BF /* 14 */,
+				5C102A212588CC0800183565 /* 15 */,
 				5CBB01EF257662030041D8C0 /* Helper */,
 				5C87D8D4257E58A900CE0376 /* DataStructures */,
 				5CBB01D325765F620041D8C0 /* main.swift */,
@@ -296,13 +296,13 @@
 			path = AdventOfCode2020;
 			sourceTree = "<group>";
 		};
-		5CBB01DC25765F920041D8C0 /* Day 1 */ = {
+		5CBB01DC25765F920041D8C0 /* 01 */ = {
 			isa = PBXGroup;
 			children = (
 				5CBB01DA25765F710041D8C0 /* 01.swift */,
 				5CBB01ED257661920041D8C0 /* 01 */,
 			);
-			path = "Day 1";
+			path = 01;
 			sourceTree = "<group>";
 		};
 		5CBB01E4257661060041D8C0 /* InputFiles */ = {
@@ -323,49 +323,49 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		5CBB01F22577644A0041D8C0 /* Day 2 */ = {
+		5CBB01F22577644A0041D8C0 /* 02 */ = {
 			isa = PBXGroup;
 			children = (
 				5CBB01F32577645D0041D8C0 /* 02.swift */,
 				5CBB01F52577646A0041D8C0 /* 02 */,
 			);
-			path = "Day 2";
+			path = 02;
 			sourceTree = "<group>";
 		};
-		5CE36199257A02C000C986B5 /* Day 4 */ = {
+		5CE36199257A02C000C986B5 /* 04 */ = {
 			isa = PBXGroup;
 			children = (
 				5CE3619A257A02D100C986B5 /* 04.swift */,
 				5CE361A0257A02E200C986B5 /* 04 */,
 			);
-			path = "Day 4";
+			path = 04;
 			sourceTree = "<group>";
 		};
-		5CE361B1257B5E9600C986B5 /* Day 5 */ = {
+		5CE361B1257B5E9600C986B5 /* 05 */ = {
 			isa = PBXGroup;
 			children = (
 				5CE361B2257B5EB500C986B5 /* 05.swift */,
 				5CE361B8257B5EC100C986B5 /* 05 */,
 			);
-			path = "Day 5";
+			path = 05;
 			sourceTree = "<group>";
 		};
-		5CF3414C258648FD00D985BF /* Day 13 */ = {
+		5CF3414C258648FD00D985BF /* 13 */ = {
 			isa = PBXGroup;
 			children = (
 				5CF3414D2586491400D985BF /* 13.swift */,
 				5CF341532586492000D985BF /* 13 */,
 			);
-			path = "Day 13";
+			path = 13;
 			sourceTree = "<group>";
 		};
-		5CF341642587A52400D985BF /* Day 14 */ = {
+		5CF341642587A52400D985BF /* 14 */ = {
 			isa = PBXGroup;
 			children = (
 				5CF341652587A53200D985BF /* 14.swift */,
 				5CF3416B2587A54000D985BF /* 14 */,
 			);
-			path = "Day 14";
+			path = 14;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
