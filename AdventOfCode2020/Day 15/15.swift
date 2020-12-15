@@ -28,17 +28,15 @@ struct Problem_15: Puzzle {
 
         var lastNumber = 0
         var count = input.count + 1
-        var nextNumber = 0
 
         while count < index {
             if let memLookup = lookup[lastNumber] {
                 lookup[lastNumber] = count
-                nextNumber = count - memLookup
+                lastNumber = count - memLookup
             } else {
                 lookup[lastNumber] = count
-                nextNumber = 0
+                lastNumber = 0
             }
-            lastNumber = nextNumber
             count += 1
         }
 
